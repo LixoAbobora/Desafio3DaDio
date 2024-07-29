@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bl1qlavkjhv6n"]
+
+[ext_resource type="Texture2D" uid="uid://bku2u8qc72xn6" path="res://player/Main Ship - Base - Full health.png" id="1_yfxtw"]
+[ext_resource type="Script" path="res://Player.gd" id="2_yfmne"]
+
+[node name="World" type="Node2D"]
+
+[node name="Player" type="Sprite2D" parent="."]
+position = Vector2(354, 235)
+texture = ExtResource("1_yfxtw")
+script = ExtResource("2_yfmne")
